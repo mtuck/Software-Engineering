@@ -43,7 +43,19 @@ if programmer sees program as extension of his ego, programmer will be less apt 
 
 ##chief programmer Team
 Two key aspect of a chief programming team:
+
 1. specializtion: each member of the team carries out only those taks for which he or she has been trained.
 2. hierarchy chief programmer directs the actions of all the other members of the team and is responsible for every aspect of the operation
+
 Chief programming team concept formalized by mill (19720
 chief prgrammer: both a successful manager and a highly skilled programmer who does the archtetural design and any critical or complex sections of the code and hadles all interfacing
+
+###duties of chief programmer
+
+- successful manager and highly skilled programmer
+- does the architectrual design
+- allocates coding among the team members
+- While the critical (or complex sections of the code
+- handles all the interfactin issues
+- reviews the work of the other team members
+- is prsonally responsible for every line of code
