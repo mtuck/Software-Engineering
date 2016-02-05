@@ -24,7 +24,7 @@
 - what is important is team identitiy and mutual respect
 
 
-##analysis of the arrpoach
+    ##analysis of the arrpoach
 
 - major advantage = positive attitud towas the finding of faults.
 - weinberg feels that egoless teams spring up spontaneously and cannot be imposed from outside
@@ -41,7 +41,7 @@
 - May have a programming secretary and a backup programmer for the chief programmer 
 - Difficult to find one person adept at both managing and programming
 
-##chief programmer Team
+    ##chief programmer Team
 Two key aspect of a chief programming team:
 
 1. specializtion: each member of the team carries out only those taks for which he or she has been trained.
@@ -49,9 +49,7 @@ Two key aspect of a chief programming team:
 
 Chief programming team concept formalized by mill (19720
 chief prgrammer: both a successful manager and a highly skilled programmer who does the archtetural design and any critical or complex sections of the code and hadles all interfacing
-
-###duties of chief programmer
-
+    ###duties of chief programmer
 - successful manager and highly skilled programmer
 - does the architectrual design
 - allocates coding among the team members
@@ -59,16 +57,24 @@ chief prgrammer: both a successful manager and a highly skilled programmer who d
 - handles all the interfactin issues
 - reviews the work of the other team members
 - is prsonally responsible for every line of code
-
-###more on chief programmer team
+    ###more on chief programmer team
 - back-up programmer must be as competent as the chief programmer in every respect and must know as much about the project as the chief programmer
     - does black-box test case planning
     - work on the detailed design and the coding under the direction of the chief programmer
 - programming secretary (sometime called librarian) responsible for maintaining the project production library, the documentation of the project which includes source code listings, JCL, and test data.
 - Responsible for conversion of source code to machine readable form, compilaiton, linking, loading, execution, andrunning test cases
 - One to three programmers work on the detailed design and the coding under the direction of the chief programmer and hand their source code to the secretary
-
-####review of chief programmer
+        ####review of chief programmer
 - if the chief programmer is competent, then the chief programmer team organization works well
 - Chances of finding a chief programmer are small
 - qualifies needed to be a highly skilled programmer are different from those needed to be a successful manager
+- backup programmer must ahve the same qualities and are just as rare
+- must also take a back sear tothe chief programmer
+- programming secretary must be a programmer who does not mind lots of paperwor
+
+##Team manager/Team leader
+- split the responsibilities of the chief programmer into a team manager and a team leader
+- The team manager handles the nontechnical management
+- The team leader deals with the technical issues of the project
+- Results in programmers having 2 "bosses"
+- May be difficult to determine if an issue is technical or nontechnical
