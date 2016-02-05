@@ -1,7 +1,7 @@
 # Software-Engineering
 
 #Team
-  *a group of professionals organized in order to complete the task of creating a large software project
+  -a group of professionals organized in order to complete the task of creating a large software project
   ##Structures
     -Democratic 
     -Hierarchical or chief programmer
