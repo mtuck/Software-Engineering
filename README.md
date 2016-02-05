@@ -5,8 +5,8 @@
 
 ##Structures
 
--Democratic 
--Hierarchical or chief programmer
+- Democratic 
+- Hierarchical or chief programmer
 -Team manager/team leader 
 -Synchronize and stabilize team
 -Agile teams
@@ -32,3 +32,11 @@ if programmer sees program as extension of his ego, programmer will be less apt 
 -work best when the problem is difficult
 -should function well in a research environment
 -works well in an industrial setting when there is a hard problem to solve
+
+
+##Hierarchical or Chief programmer Team
+-one overall manager (cheif programmer)
+-everyone understands the lines of authority
+-Team members tend to participate less in decisions likely to be handed down from above
+-May have a programming secretary and a backup programmer for the chief programmer 
+-Difficult to find one person adept at both managing and programming
