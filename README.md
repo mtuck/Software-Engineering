@@ -38,7 +38,7 @@
 - May have a programming secretary and a backup programmer for the chief programmer 
 - Difficult to find one person adept at both managing and programming
 
-##chief programmer Team
+###Chief programmer Team
 Two key aspect of a chief programming team:
 
 1. specializtion: each member of the team carries out only those taks for which he or she has been trained.
@@ -47,7 +47,7 @@ Two key aspect of a chief programming team:
 Chief programming team concept formalized by mill (19720
 chief prgrammer: both a successful manager and a highly skilled programmer who does the archtetural design and any critical or complex sections of the code and hadles all interfacing
 
-###duties of chief programmer
+###Duties of chief programmer
 - successful manager and highly skilled programmer
 - does the architectrual design
 - allocates coding among the team members
@@ -56,7 +56,7 @@ chief prgrammer: both a successful manager and a highly skilled programmer who d
 - reviews the work of the other team members
 - is prsonally responsible for every line of code
 
-###more on chief programmer team
+###More on chief programmer team
 - back-up programmer must be as competent as the chief programmer in every respect and must know as much about the project as the chief programmer
     - does black-box test case planning
     - work on the detailed design and the coding under the direction of the chief programmer
@@ -64,7 +64,7 @@ chief prgrammer: both a successful manager and a highly skilled programmer who d
 - Responsible for conversion of source code to machine readable form, compilaiton, linking, loading, execution, andrunning test cases
 - One to three programmers work on the detailed design and the coding under the direction of the chief programmer and hand their source code to the secretary
 
-####review of chief programmer
+####Review of chief programmer
 - if the chief programmer is competent, then the chief programmer team organization works well
 - Chances of finding a chief programmer are small
 - qualifies needed to be a highly skilled programmer are different from those needed to be a successful manager
@@ -95,7 +95,7 @@ chief prgrammer: both a successful manager and a highly skilled programmer who d
 - Create test cases which are used for daily testing
 - Remove the problem if one developer leaves,  the knowledge does not disappear about a portion of the project
 
-##choosing an appropriate team organiztion
+##Choosing an appropriate team organiztion
 - there is no one solution to the problem of team organiztion
 - The "correct" way depends on
     - the product
