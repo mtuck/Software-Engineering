@@ -104,4 +104,4 @@ chief prgrammer: both a successful manager and a highly skilled programmer who d
 - exceedingly little research has been done on software team organization
     - instead team organiztion has been based on research on group dynamics in general
 - Without relevant experimental results, it is hard to determine optional team organization for a specific product
-- figure 4.7 pg 120
+- **figure 4.7 pg 120**
