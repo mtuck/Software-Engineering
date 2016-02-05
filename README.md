@@ -4,12 +4,15 @@
 -a group of professionals organized in order to complete the task of creating a large software project
 
   ##Structures
+  
     -Democratic 
     -Hierarchical or chief programmer
     -Team manager/team leader 
     -Synchronize and stabilize team
     -Agile teams
+    
   ##Democratic Team
+  
     -Group of up to 10 programmers
     -Equal partnership with egoless programming
     -works well if the group is small, highly competent
@@ -22,6 +25,7 @@
     
     
 ##analysis of the arrpoach
+
     -major advantage = positive attitud towas the finding of faults.
     -weinberg feels that egoless teams spring up spontaneously and cannot be imposed from outside
     -enormously productive.
