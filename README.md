@@ -59,3 +59,10 @@ chief prgrammer: both a successful manager and a highly skilled programmer who d
 - handles all the interfactin issues
 - reviews the work of the other team members
 - is prsonally responsible for every line of code
+
+###more on chief programmer team
+- back-up programmer must be as competent as the chief programmer in every respect and must know as much about the project as the chief programmer
+    - does black-box test case planning
+    - work on the detailed design and the coding under the direction of the chief programmer
+- programming secretary (sometime called librarian) responsible for maintaining the project production library, the documentation of the project which includes source code listings, JCL, and test data.
+- Responsible for conversion of source code to machine readable form, compilaiton, linking, loading, execution, andrunning test cases
