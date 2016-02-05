@@ -24,9 +24,9 @@
 - what is important is team identitiy and mutual respect
 
 
-    ##analysis of the arrpoach
+###Analysis of the arrpoach
 
-- major advantage = positive attitud towas the finding of faults.
+- major advantage = positive attitude towards the finding of faults.
 - weinberg feels that egoless teams spring up spontaneously and cannot be imposed from outside
 - enormously productive.
 - work best when the problem is difficult
@@ -58,7 +58,8 @@ chief prgrammer: both a successful manager and a highly skilled programmer who d
 - handles all the interfactin issues
 - reviews the work of the other team members
 - is prsonally responsible for every line of code
-    ###more on chief programmer team
+
+###more on chief programmer team
 - back-up programmer must be as competent as the chief programmer in every respect and must know as much about the project as the chief programmer
     - does black-box test case planning
     - work on the detailed design and the coding under the direction of the chief programmer
@@ -80,3 +81,27 @@ chief prgrammer: both a successful manager and a highly skilled programmer who d
 - The team leader deals with the technical issues of the project
 - Results in programmers having 2 "bosses"
 - May be difficult to determine if an issue is technical or nontechnical
+- one project leader oversees several team leaders
+- Each team leader has several programmers for which she/he is responsible
+- Clear lines of communication
+
+##Synchronize-and-Stabilize Team
+- used by microsoft
+- small team led by a manager and having three to eight developers and three to eight testers working ont-to-one with the developers
+- Developers are given freedom to design and implement their portions as they wish
+- each day the partial components are tested and debugged
+- encourages creativity and innovation yet the daily synchroniztion keeps the project on track
+
+##Agile Teams
+- Work in pairs
+- Provide instant review
+- Create test cases which are used for daily testing
+- Remove the problem if one developer leaves,  the knowledge does not disappear about a portion of the project
+
+##choosing an appropriate team organiztion
+- there is no one solution to the problem of team organiztion
+- The "correct" way depends on
+    - the product
+    - the outlook of the leaders of the organizatioin
+    - previous experience with various team structures
+- 
