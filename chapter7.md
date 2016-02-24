@@ -15,9 +15,10 @@
   * A description of the logical relationship between elements of a class
   * The type of relationship that exists among the elements of each software entity.
 * __Types of Cohesion__ 
-  * __Coincidental__: No meaningful relationships among the elements of an entity. Difficult to describe the module's functions(s)
-  * __Logical__: performs a series of related actions, one of which is selected by the calling module
-  * __Classical or Temporal__ Performs a series of actions related in time
-  * __Procedural__: performs a series of actions related by the sequence of steps to be followed by the product
-  * __communicational__: performs a series of actions related by the sequence of steps to be followed by the product performed on the same data
-  * 
+  1.  __Coincidental__: No meaningful relationships among the elements of an entity. Difficult to describe the module's functions(s)
+  2. __Logical__: performs a series of related actions, one of which is selected by the calling module
+  3. __Classical or Temporal__ Performs a series of actions related in time
+  4. __Procedural__: performs a series of actions related by the sequence of steps to be followed by the product
+  5. __communicational__: performs a series of actions related by the sequence of steps to be followed by the product performed on the same data
+    * Note 3,4,5 are sometimes called flowchart cohesion
+  6. __informational__: Performs multiple functions each with its own entry point with independent code for each action, all performed on the same data structure
