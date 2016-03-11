@@ -72,3 +72,88 @@
     * the client's needs may have to be scaled down
 * Key employees of the client organization may not have the time for essential in-depth discussions
 * Flexibility and objectivity are essential
+
+
+# chapter 12
+### specification document
+* serves as contract between clienct and developer
+* must be clear and understandable by the client
+* must be complete and detailed for the design team
+* specifies exactly what the product is to do
+* Describes the constraints of teh system
+* Describes acceptance criteria
+* Help team select solution strategy
+
+### constraints
+1. timing
+2. storage
+3. security
+4. Response time
+5. portability
+6. reliability
+7. parallel running
+8. deadlines
+
+### acceptance criteria
+* set of series of tests which can be used to prove the product satisfies the specifications
+* indicates the developer's job is completed
+* may be restatements of the constraints
+* may be 
+
+### solution strategy
+* general approach to building the product
+* Records are maintained of discarded strategies and why there were discarded (This will help if teh team must justify to SQA why they selected the method they did. it will also aid during maintenance)
+
+### specification document writing techniques
+* internal methods
+    * natural language easy to learn
+    * easy for client to understand
+    * Easy to incorporate ambiguities contradictions
+* Semiformal methods
+    * move precise than infromal
+    * client can understand
+    * cannot handle things
+* Formal methods
+    * most precise
+    * REduce faults
+    * support correctness proving
+    * difficult to learn
+    * almost impossible for client to understand
+* SEmiformal techniques
+    * data flow diagram DFD- gane and sairsens graphical technique
+    * problem statement language/ problem statement analyzer- computer aided technique
+    * Structured analysis/design technique- box and arrow diagram language
+    * software requirements engineering method SREM- useful for specifying real-time systems and embedded systems
+    * entity relationships modeling- data oriented technique useful for specifying databases
+## formal methods-easier to validate code
+    1. finitre state machine FSM
+    2. petri net- carl adam petri in 1962
+    3. Z- formal specification language
+    4. anna- formal specification language for ada
+    5. vienna definition language VDL- based on denotational semantics
+    6. Communicating sequential processes CSP- by hoare based on idea the project is a sequences of events
+## finite state mahines FSM
+* FA = (j,k,t,s,f) where
+* j = finite nonempty set of states
+* k = set of inputs
+* T = transition function mapping JXK _> j
+* S & J = the start state
+* F = set of final states (F is a subset of J)
+
+## petri net(get notes here)
+* useful for concurrent processes and synchronization
+* Nondeterministic
+* C = (P,T,I,O)
+* p = finite set of places
+* t = finite set of transitions
+* I = input function mapping T to bags of places
+    * T -> P
+* O = output function mapping T to bags of places
+    * T -> P
+* Four tokens: one in p1 two in p2 none in p3 and one in p4
+    * reperesented by the vector (1,2,0,1)
+
+
+## petri nets
+* a transition is enabled if each of its input places has as many tokens in it as there are arcs from the place to that transition
+* Tansis
