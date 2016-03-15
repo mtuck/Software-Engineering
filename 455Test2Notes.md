@@ -119,7 +119,7 @@
     * support correctness proving
     * difficult to learn
     * almost impossible for client to understand
-* SEmiformal techniques
+* Semiformal techniques
     * data flow diagram DFD- gane and sairsens graphical technique
     * problem statement language/ problem statement analyzer- computer aided technique
     * Structured analysis/design technique- box and arrow diagram language
@@ -140,6 +140,17 @@
 * S & J = the start state
 * F = set of final states (F is a subset of J)
 
+* Using a FSM, a specification is
+    * easy to write down
+    * easy to validate
+    * Easy to convert into a design
+    * Easy to convert into code automatically
+    * More precise than graphical methods
+    * Almost as easy to understand
+    * Easy to maintain
+* However
+    * timing considerations are not handled
+
 ## petri net(get notes here)
 * useful for concurrent processes and synchronization
 * Nondeterministic
@@ -154,6 +165,77 @@
     * reperesented by the vector (1,2,0,1)
 
 
-## petri nets
+## petri nets *missing info
 * a transition is enabled if each of its input places has as many tokens in it as there are arcs from the place to that transition
 * Tansis
+
+## Z - formal specification language
+* four sections
+    * given sets (sets that need not be defined in detail), data types and constants
+    * State Definition (schema - group of variable declarations together with a list of predicates that constrain the possible values of the variables)
+    * Initial state- description of the system when first turned on
+    * operations
+* Analysis of Z language
+    * easy to find fault in specification written in Z
+    * Requires writer to be concise
+    * Allows for proofs
+    * Not too difficult to learn
+    * Has decreased the cost of software development
+    * Easy to rewrite the specifications into natural language for the client
+    * Z is the most widely used formal specification language
+    * has been used successfully especially in europe
+* difficulties in using Z
+    * the large and complex set of symbols
+    * Training in mathematics is needed
+
+### other formal techniques
+* __Anna__
+    * for ada
+* __Gist refine__
+    * Knowledge based
+* __VDM__
+    * uses denotational semantics
+* __CSP(Communicating sequential processes)__
+    * CSP specificatiosns are executable
+    * Like Z, csp has a high squiggle factor
+
+### comparison of classical analysis techniques
+* formal methods are 
+    * powerful but difficut to learn and use
+* Informal methods have
+    * little power but are esy to learn and use
+* There is therefore a trad-off of ease versus power
+__FIGURE 12.29__ 
+
+### which analysis techniques should be used?
+* it depends on the 
+    * project
+    * Development team
+    * Management team
+    * Myriad other factors
+* It is unwise to ignore the latest developments
+
+### testing during specification phase
+* __walkthroughs__
+* __inspections__
+* __Correctness proofs__
+
+### CASE tools
+* graphical drawing tool for DFD or petri Nets
+* Data dictionary
+* Combined drawing tool and Data Dictinary ( and possibly a consistency checker)
+    * analyst/designer
+    * Software through pictures
+    * System architect 
+
+### Metrics
+* __Size__- number of pages in the document
+* __Quality__- measure the number of faults of each type found during inspection
+* __Effort__- counts of files, data items and operations
+
+### Challenges of classical analysis
+* A specification document must be
+    * informal enough for the client but
+    * formal enough for the development team
+* Analysis ("what") should not cross the boundary into design("how")
+* Do not try to assign modules to process boxes of DFDs until the classical design phase
