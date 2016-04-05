@@ -241,4 +241,68 @@ __FIGURE 12.29__
 * Do not try to assign modules to process boxes of DFDs until the classical design phase
 
 
-### 
+# Object Oriented analysis
+
+### Object-oriented analysis (OOA)
+* semiformal analysis method for use with the object-oriented paradigm
+* The unified process is most often used
+* Classes are extracted
+
+### Analysis workflow of unified process:
+* Two overall aims
+    1. obtain a greater grasp of teh requirements
+    2. Express the requirements in a form making design and implementation easier
+
+### Types of classes in UP
+1. Entitiy classes 
+2. Boundary classes 
+3. Control classes
+
+
+### Entity class
+* class which models information which is "long lived" in the product
+    * examples:
+        * Account class
+        * Investment class
+    * Denoted with
+        * 406 figure 13.1
+
+### Steps to extract entity class
+1. Functional modleing (present scenarios for all the use cases)
+2. Enitty class modeling (Determine entity class and attribues)
+3. Dynamic modeling (determine the operation performed by or on each entity)
+
+### Boundary class
+* class which models the interaction between the software product and its actors
+* Generally associated with input or output
+* Denoted 
+    * pg 406 figure 13.1
+
+### Countrol Class
+* Class which models complesx computations and algorithms
+* Denoted
+    * pg 406 figure 13.1
+
+### CRC cards
+* Class reponsibility collaboration cards __(CRC)__
+* Completed for each class giving:
+    * Name
+    * Functionality (responsibility)
+    * List of other classes it invokes (collaboration)
+
+### Strength/weakness of CRC
+* Strength:
+    * Interaction of team members can note missing or incorrect fields (attributes or methods)
+    * Relationship between classes is clarified
+* Weakness
+    * not useful if unfamiliarc with the domain of the problem
+
+### Extracting Boundary Classes
+* Each input screen
+* Each output screen
+* Each printed report
+
+
+### Extracting Control Classes
+* Each nontrivial computation
+* Any complex algorithm
