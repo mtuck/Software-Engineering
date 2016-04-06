@@ -355,5 +355,36 @@ __FIGURE 12.29__
         * Create domain classes from requirements analysis
         * Create and/or use existing framework classes
         * Create design classes specific to the application
+3. Component Model
+    * Collection of data flow diagrams
+    * Dexcribe "how" the application is to do its work
+    * Describe the way in which the application is to do its work in terms of moving data
+    * Application is viewed as data flowing among processing units
+4. State model
+    * Collection of stat/transition diagrams
+    * Describ "when" the application does its work
+    * Divide the application into states so that the application is always in exactly one of these states
+
+#### UML- Unified modeling Language
+* Package- component of an architecture - collection of classes
+* Abstract classes (those that cannot be instantiated into objects) denoted with italics
+* Aggregation (inclusion of objects of one class by another) denoted with a diamond and the numeral at the end of the aggregation line denoted the number of object aggregated.
+* Dependency ( method of the dependent class refers to the second class) denoted with a dotted line arrow
+
+### Framework
+* A collection of classes that are usable by several different applications
+
+### Tools for design
+* modeling tools
+    1. Drawing 
+    2. Jump directly from model to source
+    3. Reverse engineering
+    
+### Metrics for design
+* Number of entries and exits per module(package)
+* Graph-theoretic complexity ( Number of modules) (Number of modules having at least one function call between them) + 1
+* Data flow complexity
+
+
 
 
