@@ -306,3 +306,54 @@ __FIGURE 12.29__
 ### Extracting Control Classes
 * Each nontrivial computation
 * Any complex algorithm
+
+# Chapter 13
+
+### Architectural Design
+* Design at the highest level
+* Designate the modules
+* Decomposing the problem into managable units
+
+### Selection of type of architecture
+1. independent components
+2. Virtual machines
+3. Repository architectures
+4. Layered architectures
+5. Data flow architectures
+6. Design patterns
+
+### One method to select basic architectures
+1. Develop mental model of the application at a high level
+2. Decompose into the required components
+3. Repeate the above process for each of the components
+
+### Goals of Architectural Selection
+1. Extension - ability to easily add features
+2. Change - ability to easily adjust to changing requirements
+3. Simplicity - easy to understand and implement
+4. Efficiency - execution, compilation, size
+
+
+### Decomposition
+* Decompose the problems so that it can be managed as a series of smaller problems
+* Goals of decomposition:
+    1. Cohesion - amount of interation within a module (maximize)
+    2. coupling - amount of interation between modules (minimize)
+
+### Models- different perspectives or views of an application
+1. Use Case Model
+    * Collection of use cases to describe "do this"
+        * Concept invented by jacobson
+        * Identifiend by its name and by the type of user of the application called the actor
+        * Consists of teh interation betweeen the actor and the application
+    * tell what the applictaion is intended to do
+2. Class model
+    * Use of class diagrams to describe "with..."
+    * Explain the building blocks used to construct the application
+    * Sometimes called object models
+    * To create:
+        * Create domain classes from requirements analysis
+        * Create and/or use existing framework classes
+        * Create design classes specific to the application
+
+
