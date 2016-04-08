@@ -475,10 +475,13 @@ __FIGURE 12.29__
 * Most suitable
     1. for the application
     2. for the environment
-    3. for the cost
+    3. for the 
+    
 ### goals of implementation
 1. Satisfy the requirements specified in the detailed design
 2. Conform to standars
 3. Document work
+4. Maintain records of time, defects
+5. Promote maintainability
 
 
