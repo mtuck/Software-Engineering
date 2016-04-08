@@ -386,5 +386,99 @@ __FIGURE 12.29__
 * Data flow complexity
 
 
+### Dtailed design
+* process which follows the architectural design in which the large recognized components of the project are described in finer detail. (pseudo code the modules which resulted from teh architectural design)
+* We may think of the architectural design process delineating the modules of a project and what cthey must perform.
+* We may think of the detailed design as describing how each module will accomplish its task.
+
+### Road Map for Detailed Design
+1. Begin with architectural models
+2. Introduce classes and design patterns that connect the architectural classes with the domain classes
+3. Refine models for consistency and completeness
+4. Specify class invariants
+5. Specify methods with pre-post conditions, flowchharts, pseudo-code
+6. Sketch unit test plans
+7. Inspect test plans and design 
+8. Release for implementation 
+
+### Factors for deciding to reuse - Components when designing
+* Is the component documented as well as the rest of the project? if not, can it be?
+* How much customization of the component is required? 
+* Has the component been tested to the same level as or more so than teh rest of teh project? if not, can it be?
+
+## Methods for representing the detailed design
+1. Dtailed sequence diagrams
+2. ?
+3. ?
+
+### How to specify a class design
+1. Gather the attributes listed in the SRS (Software REquirements Specification)
+2. Add additional attributes required for the design
+3. Name a method corresponding to each of the requirements for the class
+4. Name additional methods required for the design
+5. Show the attributes and methods on the object model
+6. State class invariants (an assertion that remain true throughout the designated computation)
+
+### How to specdify a function
+1. note the section of the SRS or SDD that this function (method) satisfies. 
+2. State what expressions the function must leave invariant
+3. State the methods preconditions
+4. State the methods postconditions 
+5. Provide pseudocode or flowchart for the algorithm
+
+### Flowchart
+* Graphical representation of the steps in an algorithm.
+* One of the oldest forms used to describe an algorithm
+    1. Diamonds for decisions
+    2. Rectangles for operations
+    3. Arrow for flow
+
+### Pseudocode
+* Short, choppy statements describing the steps in an algorithm 
+* Non-language specific 
+* advantages
+    1. easy to understand but can be precise enough to express the algorithm
+    2. Can be inspected for correctness independent of a language
+    3. Defect rates can be collected and used as a prdictor for defect rates in the product using historical data.
+
+### Advantages of pseudocode or flowcharts for detailed design
+1. Clarify algorithm
+2. Impose discipline on the process of documenting
+3. Provide additional level of inspection
+4. Often decrease overall costs
+
+### Disadvantages of flowcharts and pseudocode
+1. Create another level of documentation to maintain. 
+2. Introduce error possibilities in translating to code
+3. May require tool to extract pseudocode or facilities for drawing flowchart
+
+### Challenges of the design phase
+* The design team should not do too much
+    * The detailed design should not become code
+* The design team should not do too little
+    * It is essential for teh design team to produce a complete detailed design 
+* We need to "grow" great cdesigners
+* Potential great designers must be
+    * Identified
+    * Provided with a formal eduction
+    * Apprenticed to great designers, and
+    * Allowed to interact with other designers
+* There must be a specific career path for tehse designers with appropriate rewards
+
+#  IMplementation
+* The process of translation the detailed design into code. (programming)
+* Unnit implementation refers to coding the smallest part of the project which can be separately maintained. (classes or methods)
+
+### Selection of a programming language
+* Client requests
+* Only one available
+* Most suitable
+    1. for the application
+    2. for the environment
+    3. for the cost
+### goals of implementation
+1. Satisfy the requirements specified in the detailed design
+2. Conform to standars
+3. Document work
 
 
