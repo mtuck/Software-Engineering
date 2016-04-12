@@ -485,3 +485,28 @@ __FIGURE 12.29__
 5. Promote maintainability
 
 
+### steps for implementation
+1. Plan the structure of the cod (complete detailed design)
+2. Self inspect the design or structure
+3. Type in the code complying to standards
+4. Self inspect your code
+5. Compile 
+6. Test
+
+### Principle of sound implementation
+1. Try to reuse already existing code if possible
+2. Enfore intentions (code not to be used anywhere else in the application or to be used in other parts)
+
+
+### Sound Programming Practices
+1. Use consistent and meaningful variable names
+2. Use prologue comments for each function giving input, actions, output, author and date, modification and date, files accessed, date tested and approved by
+3. Use no more than one statement per line
+4. Make good use of white space
+5. Restric levels of nesting to three or four
+6. Be consistent with indenting
+7. Read in parameters instead of hardcoding constatns
+8. 
+
+
+
