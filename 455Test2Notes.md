@@ -583,5 +583,6 @@ __FIGURE 12.29__
 * Medium - Neither Major nor trivial
 * Trivial - A defect that will not affect operation or maintenance
 
+# Freebie chapter
 
 
