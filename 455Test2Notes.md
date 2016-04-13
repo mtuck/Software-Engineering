@@ -506,7 +506,82 @@ __FIGURE 12.29__
 5. Restric levels of nesting to three or four
 6. Be consistent with indenting
 7. Read in parameters instead of hardcoding constatns
-8. 
+
+### Principles of implementation
+1. Use qualifiers like final, const, and abstract to enforce intentions
+    1. Final classes can't be inherited from
+    2. final methods cant be inherited from
+    3. The value of final variables can't be changed
+2. Make constants, variable, and classes as local as possible
+3. Make members inaccessible if they are not specifically intended to be accessed directly
+    1. Make attributes private. Access through puble accessor functions.
+    2. Make methods private if they are for use only by methods of teh same class
+4. Include examples in documentation.
+5. List methods alphabetically rather than trying to finda calling order among them. (you may group private, protected, and public methods.)
+
+### Hints for working with pointers
+* Avoid using pointer parameters in C++ use references instedad
+* Never return a pointer to a new heap reference in C++
+* Collect your garbage (use delete() on unneded objects)
+
+### Hints for working with functions
+* avoid type inquiry. Use virtual functions instead
+* Avoid C++ friend functions except when oviously beneficial.
+* Be careful in overloading operators
+
+### Hints on working with exceptions
+* Catch only those exceptions you know how to handle
+* If the present method cannot handle the exception, there has to be a handler in an outer scope that can do so.
+* If you can handle part of the exception then handle and rethrow the exception for handling in the outer scope
+1. Follow agreed-upon development process inspect
+2. Consider introducting classes to encapsulate legal parameter values
+3. Where error handling is specified by requirements, implement
+4. For applications that must never crash, anticipate all possible implementation defects (use defaults)
+5. Follow a consistent policy for checking parameters
+
+### Programming Standards
+* Increase readability
+* Improve discipline
+* Enhance portability
+
+### Examples of programming standards
+1. Naming Conventions
+    1. Name with concatenated words
+    2. Begin class names with capitals
+    3. Begin variables with lowercase letters
+    4. Capitalize constant names
+    5. Begin the name of an instance variable of classes with the underscore
+2. Documentation for methods
+    1. preconditions
+    2. postconditions
+    3. what method does
+    4. what parameters must be passed
+    5. exceptions it throws
+    6. reason for choice of visiblitiy
+    7. ways in whcih instance variables are changed
+    8. know bugs
+    9. test description
+    10. History of changes
+3. Within methods
+    1. Perform only one operation per line
+    2. Try to keep the size to one screen
+    3. Use parentheses within expressions even if they are not needed by the syntax
+4. Documenting attributes
+    1. Provide all application invariants
+    2. State its purpose
+
+
+### tools and Environments for Programming
+* IDE (interactive Development Environment) used for allowing programmers to produce more code in less time
+    * Drag-and-Drop facilities for forming GUI components
+    * Graphical representation of directories
+    * Debuggers
+    * Wizards
+    
+### Defect Severity Classification
+* Major - Requirements not satisfied
+* Medium - Neither Major nor trivial
+* Trivial - A defect that will not affect operation or maintenance
 
 
 
