@@ -585,4 +585,81 @@ __FIGURE 12.29__
 
 # Freebie chapter
 
+### Why postdelivery maintenance is necessary
+1. Corrective maintenance- correcting a fault 
+    * analysis, design, implementation, documentation, or any other type of faults
+2. Perfective maintenance - improving the effectiveness of the product
+    * adding functionality make run faster, improve maintainability
+3. Adaptive maintenance - change reacting to a change in the environment in which the product operates
+    * Porting to a new compiler, OS , or hardware
+    * Change in tax code
+    * Change in zip code
 
+### Facts about postdelivery maintenance
+1. More time spent on postdelivery maintenance than any other activity
+2. Approximately 67% of the product cost is maintenance cost
+3. The most challenging of all aspect of software production
+4. Incorporates aspect of all of the other workflows of the product
+5. The most thankless development task
+
+### Problems with postdelivery maintenance
+1. Product may have not been developed with maintenance in mind.
+2. Not considered glamorous but a drudgery
+3. Task often given to beginners not the more seasoned programmers with experience
+4. Must avoid creating more faults when correcting one
+
+### Requirements for postdelivery maintenance programmers
+1. Ability to locate cause of a fault
+2. Ability to function without good documentation
+3. Ability to maintain documentation of changes
+4. Ability to perform regression testing
+5. Ability to perform requirements analysis, design and implementation for adaptive or perfective maintenance
+6. Ability to design test for new functionality added
+
+### Management of postdelivery maintenance
+1. Defect report file by user
+2. Reports may be prioritized
+3. Work given to programmer for repair
+4. Results tested by SQA and documented
+5. Make sure changes do not adversely affect further maintenance
+6. Encourage client to avoid the moving target problem
+
+### The reqrds of maintenance
+* Maintenance is a thankless task in every way
+    * maintainers deal with dissatisfied users
+    * If the user were happy, the product would not need maintenance
+    * The user's problems are often caused by the individuals who developed the product, not the maintainer
+    * The code itself may be badly written
+    * Postdelivery maintenance is despised by many software developers
+    * Unlss good maintenance service is provided,, the client will take fuutre development business elsewhere
+    * Postdelivery maintenance is the most challenging aspect of software production and the most thankless
+
+### Ensuring maintainability
+* Maintenance is not a one-time effort
+* We must plan for maintenance over the entire life cycle
+    * Design workflow -- use information-hiding techniques
+    * Implementation workflow - select variable names meaningful to future maintenance programmers
+    * Documentation must be complete and correct, and reflect the current version of every artifact
+* During postdelivery maintenance, maintainability must not be compromised
+    * Always be conscious of the inevitable further maintenance
+* Principles leading to maintainablity are equally applicable to postdelivery maintenance itself
+
+###  The problem of repeated maintenance
+* the moving target problem is frustrating to the development team
+* Frequent changes have an adverse effect on the maintainability of the product
+
+### The moving target problem
+* The problem is exacerbated during postedelivery maintenance
+* The more changes there are 
+    * The more cthe product deviates from its original design
+    * The more difficult further changes become
+    * Documentation becomes even less reliable than usual
+    * Regression testing files are not up to date
+    * A total reqrite may be needed for further maintenance 
+* Apparent solutino
+    * freeze the specification once they have been signed off until delivery of the product
+    * After each request for perfective maintenance, freeze the specification for (say) 3 months or 1 year
+* In practice 
+    * The client can order changes the next day
+    * If willing to pay the price, the client can order changes on a daily basis
+* "he who pays the piper calls the tune" 
