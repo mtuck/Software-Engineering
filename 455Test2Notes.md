@@ -663,3 +663,40 @@ __FIGURE 12.29__
     * The client can order changes the next day
     * If willing to pay the price, the client can order changes on a daily basis
 * "he who pays the piper calls the tune" 
+
+### warning 
+* it is no use implementing changes slowly
+* The relevant personnel are replaced
+* Nothing can be done if the person calling for repeated chang has sufficient clout
+
+### Special problems with object oriented maintenance
+1. To understand an ovject, maintainer must understand the object's hierarchy
+2. Polymorphism results in the same name could have different meanings
+3. Changes in the base class will affect the children classes.
+
+### Reverse engineering
+* The process of re-creating the design document and possibly the specification document give the source code.
+* Its need is du t othe amount of legacy code (code written 15-20 years ago but still in use) 
+* Reengineering
+    * reverse engineering, followed by forwared engineering
+    * Lower to higher to lower levels of abstraction
+* Restructuring
+    * improving the product without changing its functionality
+    * Examples:
+        * Prettyprinting
+        * Structuring code
+        * Improving maintainability
+        * Refactoring (XP, agile processes)
+* What if we have only the executable code?
+    * Treat the product as a black box
+    * Deduce the specifications from the behavior of the current product 
+
+### Case tools for postdelivery maintenance
+1. Version control tool
+2. Configuration control tool
+3. Pretty printer
+4. Graphic tools
+5. Display class hierarchy
+6. Defect-tracking tool (bugzilla)
+
+
