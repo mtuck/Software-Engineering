@@ -700,5 +700,64 @@ __FIGURE 12.29__
 6. Defect-tracking tool (bugzilla)
 
 
-### More on uml
-* 
+### Obsolenscence
+* __Obsolescence__ is the state of a being which occurs when an object, service or practice is no longer wanted even though it may still be in good working order
+
+### Areas to consider
+* If your system can't handle increased workloads or the way you do business has changed, your solution may be obsolete
+* If an organizaiton adds headcount instead of reinvesting in technology, your solution may be obsolete
+* If the software engineers from your last project are no longer available, your software may be obsolete
+* If your reporting is less than stellar, it's a good indicator that your solution may be obsolete
+* if a solution doesn't allow you to get back to business quickly, your solution may be obsolete
+* if your organization is witneswsing larger than normal turnober or delivering exceptional customer care is becoming a challenge, your solution may be obsolete
+
+### Causes of software obsolescence
+1. Functional obsolescence
+2. Technological Obsolescence
+3. Logistical Obsolescence
+
+### Functional Obsolescence
+* The software does not perform in the manner for which it was created
+* May be caused by hardware changes, requirement changes or other software changes in a larger system
+
+### Technological Obsolescence
+* inability to renew licensing agreements
+* Software maintenance (support) terminates
+* The original supplier no longer markets and sells the software
+* More advanced software available
+* Software written in obsolete, outdate or inefficient language
+
+### Logistical Obsolescence
+* Digital media obsolescence
+* Formatting changes
+* Limits or constraints change
+
+### How to mesure obsolescence
+* Physical inspection of the code for inefficient layout, structural deficiencies, excessive or deficient capacities
+* Comparative Analysis of existing software with a newer version of itself (if available)
+
+### Cost of management of software obsolescence
+* Mitigation
+* Re-development
+* Re-qualifying
+* Rehosting
+* Media Management
+
+### Mitigation
+* Software License Downgrad - negotiated with the software vendor and enables the users to expand or extend the authorized use of an older product by purchasing additional licenses of teh latest version and applying those liceses to the older product 
+* Source code purchase- in some cases, the original vendor may allow the customer to purchase the source code for the product (this may be negotiated in the original contract for the software)
+* Third party support - in some cases a third-party can be contracted to continue support of an obsolete software application
+
+### Re-Development 
+* Software is modified to operate correctly with new application hardware (or with other new software). This can range from retesting the software to re-architecting and may also include: re-integration, data porting (data migration), re-training and document revision.
+
+### Re-qualifying
+* Either modified or un-modified legacy software may have to be tested and re-qualified in an operational environment.
+
+### Re-hosting
+* Modifying existing software to operate correctly in a new development environment (also called technology porting). Rehosting is applicable to legacy software systems originally created with languages and systems that themselves have become obsolete.
+
+### Media Management
+* Storage and maintenance of teh medium the software is archived on is a critical element of software obsolescence. There are several problems (and costs) involved that depend on the type of media, the method of storing the media and version control.
+
+### 
