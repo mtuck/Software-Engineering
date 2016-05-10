@@ -408,8 +408,8 @@ __FIGURE 12.29__
 
 ## Methods for representing the detailed design
 1. Dtailed sequence diagrams
-2. ?
-3. ?
+2. Detailed Data Flow Diagrams
+3.  Detailed Class Diagrams
 
 ### How to specify a class design
 1. Gather the attributes listed in the SRS (Software REquirements Specification)
